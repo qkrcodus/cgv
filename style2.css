@@ -1,0 +1,50 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+ul,ol,li {list-style: none;}
+a {text-decoration: none; color: #333;}
+button {background: none; border: 0;}
+.blind {font-size: 0; left: -9999px; position: absolute;}
+.center {width: 980px; margin: 0 auto; position: relative;}
+body{background:#fdfcf0;}
+
+aside {background: #000;}
+aside button {position: absolute; right: 0; top: 10px;}
+aside button i {color: #fff; font-size: 2em;}
+aside img {display: block;}
+header{background: url(../images/bg_header.gif) repeat-x 0 0;}
+.snb {display: flex; justify-content: flex-end;}
+.snb li { margin-left: 10px; background: url(../images/bg_v_line.gif) no-repeat 0 6px; padding-left: 8px;}
+.snb li:first-child {background: none;}
+.snb li a {font-size: 14px; color: #999;}
+
+.gnb {height: 200px;}
+.gnb h1 {padding-top: 40px;}
+.gnb h1 a {background: url(../images/cgv.png) no-repeat 0 0; width: 136px; height: 59px;display: block;}
+
+.gnb h2 {position: absolute; left: 50%; transform: translateX(-50%); top: 58px;}
+.gnb nav {position: absolute; left: 50%; transform: translateX(-50%); top: 93px;}
+.gnb nav ul {display: flex;}
+.gnb nav ul li{margin: 0 20px;}
+.gnb nav ul li a {font-weight: bold;font-size: 18px;}
+
+form {position: absolute; left: 50%; transform: translateX(-50%); bottom: 30px;}
+form input { width: 300px; height: 30px; border: 1px solid #cacaca; padding: 0 15px; float: left; border-right: 0;}
+form button {background: #f00; color: #fff;width:50px; height: 30px;font-weight: bold;}
+
+#contents01{ background:url(../images/bg_c_bricks.png) repeat-x 0 0;}
+
+.mv_btn {display: flex; position: absolute;bottom: 15px; left: 50%; transform: translateX(-50%);}
+.mv_btn li {margin: 0 5px;}
+.mv_btn li a {width: 15px; height: 15px; background: #ccc; display: block;border-radius: 50%;}
+.mv_btn li a.on {border: 3px solid #f00; background: none;}
+
+.tit_h3 {margin: 15px 0; text-align: center; background: url(../images/bg_h3_line.jpg) repeat-x center;}
+.tit_h3 img {padding: 0 15px; background: #fdfcf0;}
+
+#contents02 {overflow: hidden;}
+#contents02 ul li {display: inline-block;}
+#contents02 .box_left {float: left; width: 74%;}
+#contents02 .box_right {float: right; width: 25%;}
+
+
+
+
