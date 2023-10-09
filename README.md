@@ -1,3 +1,3 @@
 # cgv
 
-html & css practice
+HTML CSS CGV 화면 구현
